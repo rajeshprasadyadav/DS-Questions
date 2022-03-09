@@ -31,11 +31,11 @@ function printAllSubSetFromList(B){
                 subSetsStr+=tracker.data+' '
                 tracker = tracker.next
             }
-            subSetsStr+='| '
+            if(B.next!==null) subSetsStr+='| '
             B = B.next
         }
     }
-    return subSetsStr+' ]'
+    return subSetsStr+']'
 }
 
 function allSubSetWithSumK(A,K){
@@ -71,5 +71,5 @@ function allSubSetWithSumK(A,K){
 }
 
 let A=[2,4,6,8,9,1,5,3]
-let K = 6
+let K = 38
 console.log(allSubSetWithSumK(A,K))
