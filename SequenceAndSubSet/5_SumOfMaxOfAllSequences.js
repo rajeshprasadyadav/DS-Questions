@@ -21,7 +21,7 @@ function sumOfMaxInallSequence(A){
 }
 
 /** Contribution technique 
- * T.C => O(nlogn * n) => O(nlogn)
+ * T.C => O(nlogn + n) => O(nlogn)
  * S.C => O(1)
 */
 function sumOfMaxInallSequence_2(A){
