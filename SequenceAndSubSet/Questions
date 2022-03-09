@@ -1,5 +1,7 @@
-> Given an array of N distinct element, check if there exists a subset with sum=k
+1 > Given an array of N distinct element, check if there exists a subset with sum=k. (1_SubsetWithSumK)
   Example 
   A : [ 2,5,9,10,1,-5,0]
   K = 10 . For K =10 there is a sequence and these are {10} {9,1}
   K= 30 , For K=30 , there is no sequence
+
+2 > Given an array of N distinct element, find all possible subset with sum=k. (2_AllSubSetWithSumK)

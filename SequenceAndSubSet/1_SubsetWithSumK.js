@@ -4,9 +4,11 @@
 
 
 /**
- * 
+ * T.C => O(2^n * n) // assuming length of the array is n
+ * S.C => O(1)
  * @param {*} A , A is Array
  * @param {*} K 
+ * O/p Boolean
  */
 function hasSubSetWithSumK(A,K){
     let hasSumK=false;
